@@ -42,6 +42,13 @@ module HexaPDF
 
       # Mapping of font family name and variant to font name.
       MAPPING = {
+        'Avenir' => {
+          none: 'Avenir-Book',
+          black: 'Avenir-Black',
+          light: 'Avenir-Light',
+          roman: 'Avenir-Roman',
+          medium: 'Avenir-Medium',
+        },
         'Times' => {
           none: 'Times-Roman',
           bold: 'Times-Bold',
